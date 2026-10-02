@@ -1,0 +1,61 @@
+# Build & Output Directories
+dist
+dist-ssr
+build
+out
+.next
+
+# Dependencies & Package Managers
+node_modules
+.pnpm-store
+.yarn
+.npm
+
+# Lock Files (Prevent formatting diffs on lock files)
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+bun.lockb
+
+# Static Assets & Public Files
+public/
+*.min.js
+*.min.css
+
+# 3D Assets & Media (R3F models, textures, audio)
+*.gltf
+*.glb
+*.bin
+*.obj
+*.fbx
+*.hdr
+*.exr
+*.svg
+
+# Environment & Local Configuration Files
+.env
+.env.*
+!.env.example
+.DS_Store
+Thumbs.db
+
+# IDE & Editor Settings
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+
+# Coverage & Test Output
+coverage
+.nyc_output
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
