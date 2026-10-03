@@ -1,9 +1,8 @@
-import { cocktailLists, mocktailLists } from '../constants/info'; // Adjust import path
+import { cocktailLists, mocktailLists } from '../constants/info';
 
 export default function DrinkMenu() {
   return (
     <section className="relative flex min-h-screen w-full flex-col items-center px-6 py-16 text-white md:px-12 lg:px-20">
-      {/* Section Header */}
       <div className="mx-auto mb-16 max-w-2xl text-center">
         <span className="rounded-full border border-emerald-500/20 bg-emerald-950/60 px-4 py-1.5 text-xs font-semibold tracking-[0.3em] text-emerald-400 uppercase backdrop-blur-md">
           Curated Menu
@@ -13,9 +12,7 @@ export default function DrinkMenu() {
         </h2>
       </div>
 
-      {/* Main Container: Stacked on Mobile, Side-by-Side on Medium+ Screens */}
       <div className="flex w-full max-w-7xl flex-col items-start justify-center gap-8 md:flex-row lg:gap-12">
-        {/* COLUMN 1: Signature Cocktails */}
         <div className="js-gsap-column w-full rounded-3xl border border-white/10 bg-zinc-950 p-6 shadow-2xl backdrop-blur-xl md:w-1/2 lg:p-8">
           <div className="mb-6 flex items-center justify-between border-b border-white/10 pb-6">
             <h3 className="font-galindo text-2xl font-semibold text-zinc-100 lg:text-3xl">
@@ -52,8 +49,6 @@ export default function DrinkMenu() {
             ))}
           </ul>
         </div>
-
-        {/* COLUMN 2: Refreshing Mocktails */}
         <div className="js-gsap-column w-full rounded-3xl border border-white/10 bg-zinc-950 p-6 shadow-2xl backdrop-blur-xl md:w-1/2 lg:p-8">
           <div className="mb-6 flex items-center justify-between border-b border-white/10 pb-6">
             <h3 className="font-galindo text-2xl font-semibold text-zinc-100 lg:text-3xl">
