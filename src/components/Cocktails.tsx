@@ -7,7 +7,7 @@ export default function DrinkMenu() {
         <span className="rounded-full border border-emerald-500/20 bg-emerald-950/60 px-4 py-1.5 text-xs font-semibold tracking-[0.3em] text-emerald-400 uppercase backdrop-blur-md">
           Curated Menu
         </span>
-        <h2 className="font-galindo mt-4 bg-linear-to-b from-zinc-100 to-zinc-400 bg-clip-text text-4xl font-bold text-transparent md:text-6xl">
+        <h2 className="font-vidaloka mt-4 bg-linear-to-b from-zinc-100 to-zinc-400 bg-clip-text text-5xl font-bold text-transparent md:text-6xl">
           Spirits & Zero-Proof
         </h2>
       </div>

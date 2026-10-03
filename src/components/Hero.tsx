@@ -55,7 +55,7 @@ export default function Hero() {
   return (
     <>
       <section className="hero my-10 flex min-h-[30vh] flex-col justify-center gap-y-20 sm:px-30 md:px-20">
-        <h1 className="font-amethysta title text-center text-6xl font-bold sm:text-5xl">
+        <h1 className="font-vidaloka title text-center text-6xl font-bold md:text-7xl lg:text-8xl">
           MOJITO
         </h1>
         <div className="flex flex-col justify-between gap-10 md:flex-row">

@@ -1,8 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Galindo&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Amethysta&family=Galindo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amethysta&family=Galindo&family=Libre+Baskerville:ital,wght@0,400..700;1,400..700&family=Vidaloka&display=swap');
 @import 'tailwindcss';
 
 @theme {
   --font-galindo: 'Galindo', sans-serif;
   --font-amethysta: 'Amethysta', serif;
+  --font-vidaloka: 'Vidaloka', serif;
 }
