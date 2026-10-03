@@ -31,11 +31,30 @@ export default function Hero() {
       opacity: 0,
       ease: 'expo.out',
     });
+
+    const parallaxTime = gsap.timeline({
+      scrollTrigger: {
+        trigger: '.hero',
+        start: 'top top',
+        end: 'bottom top',
+        scrub: true,
+      },
+    });
+
+    parallaxTime
+      .from('.left-leaf', {
+        x: -50,
+        y: 50,
+      })
+      .from('.right-leaf', {
+        x: 50,
+        y: -50,
+      });
   }, []);
 
   return (
     <>
-      <section className="hero my-10 flex min-h-[30vh] flex-col justify-center gap-y-20 px-30">
+      <section className="hero my-10 flex min-h-[30vh] flex-col justify-center gap-y-20 sm:px-30 md:px-20">
         <h1 className="font-amethysta title text-center text-6xl font-bold sm:text-5xl">
           MOJITO
         </h1>
@@ -67,7 +86,7 @@ export default function Hero() {
           </div>
         </div>
       </section>
-      <section className="relative flex min-h-screen overflow-hidden">
+      <section className="relative flex min-h-[60vh] overflow-hidden">
         <img
           src="mockup-graphics-75AiRF5xm0U-unsplash-removebg-preview.png"
           alt=""

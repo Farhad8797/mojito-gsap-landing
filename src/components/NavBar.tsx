@@ -9,7 +9,7 @@ export default function NavBar() {
   };
 
   return (
-    <header className="sticky top-0 left-0 z-50 w-full border-b border-slate-800 bg-slate-900/60 text-white backdrop-blur-md">
+    <header className="sticky top-0 left-0 z-50 w-full border-b border-slate-800 bg-slate-900/60 text-white backdrop-blur-xs">
       <nav className="mx-auto flex h-20 max-w-7xl items-center justify-between px-4 sm:px-6 lg:px-8">
         <a href="#" className="group flex items-center gap-2">
           <div className="flex h-8 w-8 items-center justify-center rounded-full bg-linear-to-tr from-amber-400 to-rose-500 text-sm font-bold text-slate-950 shadow-md transition-transform group-hover:scale-105">
