@@ -54,12 +54,12 @@ export default function Hero() {
 
   return (
     <>
-      <section className="hero my-10 flex min-h-[30vh] flex-col justify-center gap-y-20 sm:px-30 md:px-20">
+      <section className="hero my-10 flex min-h-[30vh] flex-col justify-center gap-y-20 sm:px-10 md:px-20">
         <h1 className="font-vidaloka title text-center text-6xl font-bold md:text-7xl lg:text-8xl">
           MOJITO
         </h1>
         <div className="flex flex-col justify-between gap-10 md:flex-row">
-          <div className="flex max-w-full flex-col gap-y-5 md:max-w-[40vw]">
+          <div className="flex max-w-full flex-col gap-y-5 px-10 md:max-w-[40vw]">
             <h1 className="font-galindo text-2xl font-bold">
               Handcrafted Spirits & Botanical Elixirs
             </h1>
@@ -72,7 +72,7 @@ export default function Hero() {
               experience in every sip.
             </p>
           </div>
-          <div className="flex max-w-full flex-col gap-y-5 md:max-w-[30vw]">
+          <div className="flex max-w-full flex-col gap-y-5 px-10 md:max-w-[30vw]">
             <h1 className="font-galindo text-2xl font-bold">
               Vibrant & Refreshing
             </h1>

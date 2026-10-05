@@ -99,7 +99,6 @@ export default function About() {
       </section>
 
       <section className="about about-two relative flex min-h-screen w-full flex-col items-center px-6 py-20 text-white md:px-12 lg:px-24">
-        {/* Header */}
         <div className="mx-auto mb-16 max-w-2xl text-center">
           <span className="rounded-full border border-emerald-500/20 bg-emerald-950/60 px-4 py-1.5 text-xs font-semibold tracking-[0.3em] text-emerald-400 uppercase backdrop-blur-md">
             Visual Journey
@@ -175,7 +174,6 @@ export default function About() {
             </div>
           </div>
 
-          {/* IMAGE 6: Row 3 Right */}
           <div className="js-gsap-gallery-item group relative h-72 overflow-hidden rounded-3xl border border-white/10 bg-zinc-900/40 shadow-2xl md:h-80 lg:col-span-2 lg:h-96">
             <img
               src={galleryImages[5].src}

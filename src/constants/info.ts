@@ -105,4 +105,18 @@ const mocktailLists: Cocktail[] = [
   },
 ];
 
-export { navLinks, cocktailLists, mocktailLists };
+const leftFeatures = [
+  '100% Organic Botanicals',
+  'Cold-Pressed Citrus',
+  'Small-Batch Craft Spirits',
+  'Artisanal Ice Program',
+];
+
+const rightFeatures = [
+  'Precision Molecular Mixology',
+  'Zero Artificial Sweeteners',
+  'Hand-Foraged Flavors',
+  'Balanced Liquid Chemistry',
+];
+
+export { navLinks, cocktailLists, mocktailLists, leftFeatures, rightFeatures };
