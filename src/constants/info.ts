@@ -119,4 +119,50 @@ const rightFeatures = [
   'Balanced Liquid Chemistry',
 ];
 
-export { navLinks, cocktailLists, mocktailLists, leftFeatures, rightFeatures };
+const menuCocktails = [
+  {
+    id: 'mojito',
+    name: 'Classic Mint Mojito',
+    tagline: 'Crisp Botanical Clarity',
+    image: 'nikita-tikhomirov-vAkIPzXOSOc-unsplash-removebg-preview.png',
+    recipeHeadline: 'Freshly Muddled Botanicals & Cuban Spirits',
+    recipeDetails:
+      'Crafted with hand-slapped fresh spearmint leaves, 2 oz artisanal white rum, 1 oz freshly squeezed key lime juice, and 0.75 oz organic raw cane syrup. Top with chilled sparkling mineral water over crushed ice.',
+  },
+  {
+    id: 'mezcalita',
+    name: 'Smoked Mezcalita',
+    tagline: 'Earth & Smoked Citrus',
+    image: 'clovis-wood-FT1PJqW0qtE-unsplash__1_-removebg-preview.png',
+    recipeHeadline: 'Artisanal Agave & Smoked Sea Salt',
+    recipeDetails:
+      '2 oz artisanal Oaxaca mezcal paired with 0.75 oz Cointreau, 1 oz fresh lime juice, and a touch of agave nectar. Double strained into a rocks glass with a chili-lime sea salt rim.',
+  },
+  {
+    id: 'spritz',
+    name: 'Aperol Spritz',
+    tagline: 'Bittersweet Italian Effervescence',
+    image: 'santiago-vilchis-mhqCwnemNTI-unsplash-removebg-preview.png',
+    recipeHeadline: 'Effervescent Prosecco & Bitter Orange',
+    recipeDetails:
+      'Built directly in a oversized wine glass filled with cubed ice: 3 parts crisp Prosecco, 2 parts vibrant Aperol, and 1 part splash of premium soda water. Garnished with an fresh orange slice.',
+  },
+  {
+    id: 'pisco',
+    name: 'Velvety Pisco Sour',
+    tagline: 'Silky Creaminess & Andes Citrus',
+    image: 'sk-MzsWrM8DSCU-unsplash-removebg-preview.png',
+    recipeHeadline: 'Hand-Shaken Foam & Aromatic Bitters',
+    recipeDetails:
+      'Dry shaken with 2 oz Peruvian Pisco, 1 oz key lime juice, 0.75 oz simple syrup, and 1 fresh egg white. Shaken with ice, double strained, and crowned with 3 drops of Angostura bitters.',
+  },
+];
+
+export {
+  navLinks,
+  cocktailLists,
+  mocktailLists,
+  leftFeatures,
+  rightFeatures,
+  menuCocktails,
+};
