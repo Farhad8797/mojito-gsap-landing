@@ -10,7 +10,6 @@ export default function Contact() {
         start: 'top 20%',
         end: 'bottom bottom',
         scrub: true,
-        markers: true,
       },
     });
 
