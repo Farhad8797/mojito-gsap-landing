@@ -30,13 +30,13 @@ export default function Contact() {
     >
       <img
         src="mockup-graphics-75AiRF5xm0U-unsplash-removebg-preview.png"
-        alt=""
+        alt="left-leaf"
         className="left-leaf absolute -left-45 -scale-x-100"
       />
 
       <img
         src="mockup-graphics-75AiRF5xm0U-unsplash-removebg-preview.png"
-        alt=""
+        alt="right-leaf"
         className="right-leaf absolute -right-45 -scale-y-100"
       />
       <div className="relative z-10 my-auto flex w-full flex-col items-center justify-center">
