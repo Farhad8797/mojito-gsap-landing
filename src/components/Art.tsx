@@ -55,7 +55,7 @@ export default function Art() {
   return (
     <>
       <section
-        id="art"
+        id="work"
         className="relative flex min-h-screen w-full flex-col items-center justify-center overflow-hidden px-6 py-20 text-white md:px-12 lg:px-20"
       >
         <div className="relative mb-12 text-center lg:mb-16">

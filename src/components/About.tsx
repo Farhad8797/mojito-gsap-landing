@@ -35,7 +35,10 @@ export default function About() {
 
   return (
     <>
-      <section className="about about-one relative flex w-full items-center justify-center overflow-hidden px-6 py-20 text-white md:px-12 lg:px-24">
+      <section
+        className="about about-one relative flex w-full items-center justify-center overflow-hidden px-6 py-20 text-white md:px-12 lg:px-24"
+        id="about"
+      >
         <div className="pointer-events-none absolute top-1/2 left-1/4 h-96 w-96 -translate-y-1/2 rounded-full bg-emerald-500/10 blur-[140px]" />
         <div className="relative z-10 flex w-full max-w-7xl flex-col items-center justify-between gap-12 lg:flex-row lg:gap-20">
           <div className="js-gsap-about-left flex w-full flex-col items-start lg:w-1/2">

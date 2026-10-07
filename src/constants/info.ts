@@ -20,6 +20,10 @@ const navLinks: NavLinks[] = [
     id: 'contact',
     title: 'Contact',
   },
+  {
+    id: 'menu',
+    title: 'Menu',
+  },
 ];
 
 interface Cocktail {
