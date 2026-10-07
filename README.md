@@ -1,75 +1,53 @@
-# React + TypeScript + Vite
+# Mojito Craft — Interactive Landing Page
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A high-end, responsive landing page crafted for a premium cocktail brand. This project showcases immersive scroll-driven animations, custom SVG vector layouts, and robust component architecture built with **React**, **TypeScript**, **Tailwind CSS** and **GSAP**.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Features
 
-## React Compiler
+- **ScrollTrigger Mask Animations:** Dynamic clip-path expansions and scroll-synchronized scrubbing powered by GSAP's `useGSAP` hook and `ScrollTrigger`.
+- **Stateful Cocktail Slider:** Interactive drink selector with layout-safe state management preventing unwanted flexbox/grid layout reflows.
+- **Lightweight Vector Integration:** Clean, strongly-typed inline SVG path datasets without heavy third-party icon packages.
+- **Responsive Layouts:** Mobile-first design tailored with Tailwind CSS, featuring mobile offset trigger hooks for smooth animations across all screen sizes.
+- **Type-Safe Architecture:** Stricter TypeScript definitions separating static social datasets and cocktail items into modular configuration files.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## Tech Stack
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+- **Framework:** React 19
+- **Language:** TypeScript
+- **Styling:** Tailwind CSS
+- **Animation Engine:** GSAP (GreenSock Animation Platform)
+  - `@gsap/react` (`useGSAP`)
+  - `ScrollTrigger`
+  - `SplitText`
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+---
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+## Getting statrted
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+**1. Clone the repo:**
 
+```bash
+git clone https://github.com/Farhad8797/mojito-gsap-landing.git
 ```
 
-You can also install [eslint-plugin-react-x](https://npmx.dev/package/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://npmx.dev/package/eslint-plugin-react-dom) for React-specific lint rules:
+**2. Install necessary dependencies:**
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-
+```bash
+npm install
 ```
+
+**3. Turn on the server:**
+
+```bash
+npm run dev
+```
+
+---
+
+## Acknowledgements:
+
+Thanks to [JavaScript Mastery](https://youtu.be/ATdaYQw0ptk?si=pIpVPrzS2pN2nkRh) for this amazing course: [Creative frontend Course](https://youtu.be/ATdaYQw0ptk?si=pIpVPrzS2pN2nkRh)
